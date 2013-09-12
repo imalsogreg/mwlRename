@@ -1,0 +1,18 @@
+Name: mwlRename
+Version: 0.1.0
+Synopsis: throw-away MWL file name mapping script
+Homepage: http://github.com/ImAlsoGreg/mwlRename
+License: BSD3
+License-File: LICENSE
+Author: Greg Hale
+Maintainer: imalsogreg@gmail.com
+Category: Science
+Build-Type: Simple
+Cabal-Version: >= 1.8
+
+executable mwlRename
+  Main-Is: mwlRename.hs
+  Build-Depends: base (>= 4.0 && <= 5.0)
+               , containers (>= 0.4.0 && <= 0.6.0)
+               , directory  (>= 1.0 && <= 2.0)
+               , parsec     (>= 3.0 && <= 4.0)
